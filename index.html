@@ -3,28 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/icones/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
     <title>Le CV de Marine Briet</title>
 </head>
 
 <body>
     <header>
+        <img src="./assets/images/Photo-de-profil.jpg" alt="Photo de Marine qui sourit">
         <div class="informations">
             <h1>Marine BRIET</h1>
-            <p class="work">Développer Web et Web mobile</p>
-            <address>
-                <a href="mailto:marinebriet@hotmail.com">Mail</a>
-                <a href="https://maps.app.goo.gl/d7FWTkXHjKRiVNST8" target="_blank">Adresse</a>
-                <a href="tel:#">Téléphone</a>
-            </address>
-            <p class="driverlicence">Permis B</p>  
+            <p class="work">Développeur Web et Web mobile</p>
+
+            <div class="contact_infos">
+                <div class="line1">
+                    <span class="mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:marinebriet@hotmail.com">Mail</a>
+                    </span>
+                    
+                    <span class="address">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="https://maps.app.goo.gl/d7FWTkXHjKRiVNST8" target="_blank">Adresse</a>
+                    </span>
+                </div>
+               
+                <div class="line2">
+                    <span class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:#">Téléphone</a>
+                    </span>
+                    
+                    <span class="licence">
+                        <i class="fa-solid fa-car"></i>
+                        Permis B
+                    </span>
+                </div>
+            </div> 
         </div>
     </header>
     
     <main>
         <div class="bloc1">
             <section class="profile">
-                <!-- PROFILE -->
-                <h2>Profile</h2>
+                <!-- PROFIL -->
+                <h2>Profil</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales pellentesque faucibus. Aenean lobortis lorem enim, a mattis magna feugiat eget. Nullam fringilla sapien eget pulvinar facilisis. Maecenas quam sapien, dapibus at purus non, pretium pulvinar sem. Praesent eget interdum magna. Aenean quis condimentum ante, in consequat dui.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales pellentesque faucibus. Aenean lobortis lorem enim, a mattis magna feugiat eget. Nullam fringilla sapien eget pulvinar facilisis. Maecenas quam sapien, dapibus at purus non, pretium pulvinar sem. Praesent eget interdum magna. Aenean quis condimentum ante, in consequat dui.</p>
@@ -119,44 +142,44 @@
                 <article class="skills_items">
                     <span class="skills_name">HTML</span>
                     <div class="skills_level">
-                            <span class="full_stars">★</span>
-                            <span class="full_stars">★</span>
-                            <span class="full_stars">★</span>
-                            <span class="full_stars">★</span>
-                            <span class="empty_stars">☆</span>
+                        <span class="full_stars">★</span>
+                        <span class="full_stars">★</span>
+                        <span class="full_stars">★</span>
+                        <span class="full_stars">★</span>
+                        <span class="empty_stars">☆</span>
                     </div>
                 </article>
 
                 <article class="skills_items">
                     <span class="skills_name">CSS</span>
                     <div class="skills_level">
-                            <span class="full_stars">★</span>
-                            <span class="full_stars">★</span>
-                            <span class="full_stars">★</span>
-                            <span class="full_stars">★</span>
-                            <span class="empty_stars">☆</span>
+                        <span class="full_stars">★</span>
+                        <span class="full_stars">★</span>
+                        <span class="full_stars">★</span>
+                        <span class="full_stars">★</span>
+                        <span class="empty_stars">☆</span>
                     </div>
                 </article>
 
                 <article class="skills_items">
                     <span class="skills_name">JavaScript</span>
                     <div class="skills_level">
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
                     </div>
                 </article>
 
                 <article class="skills_items">
                     <span class="skills_name">PHP</span>
                     <div class="skills_level">
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
-                            <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
+                        <span class="empty_stars">☆</span>
                     </div>
                 </article>
             </section>
@@ -204,8 +227,21 @@
     </main>
 
     <footer>
-        <a href="https://github.com/Marine-Briet">GitHub</a>
-        <a href="https://www.linkedin.com/in/marine-briet-984359219/">LinkedIn</a>
+        <div class="button">
+            <!-- ICONES RESEAUX SOCIAUX -->
+
+            <div class="sm_icon">
+                <i class="fa-brands fa-square-linkedin"></i>
+            </div>
+
+            <div class="sm_icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="sm_icon">
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+
+        </div>
         <p class="update">Mis à jour le : <time datetime="2026-02-01">01/02/2026</time></p>
     </footer>
 </body>
