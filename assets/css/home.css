@@ -1,0 +1,205 @@
+/* POLICES D'ECRITURE */
+
+@font-face{
+    font-family: "Lato";
+    src: url('../fonts/Lato-Bold.ttf') format('true type');
+    src: url('../fonts/Lato-Bold.woff') format('open type');
+    src: url('../fonts/Lato-Italic.ttf') format('true type');
+    src: url('../fonts/Lato-Italic.woff') format('open type');
+    src: url('../fonts/Lato-Regular.ttf') format('true type');
+    src: url('../fonts/Lato-Regular.woff') format('open type');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* GLOBAL */
+
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Raleway", sans-serif;
+letter-spacing: -0.01em;
+font-size: 1em;
+}
+
+h1, h2, h3 {
+    font-family: "Lato", sans-serif;
+}
+
+h2 {
+    color: #17abb3;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+
+
+/* BODY */
+
+body{
+    background-color: #f5f5f5;
+}
+
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+    padding: 3em;
+    background-color: #17abb3;
+    color: #ffffff;
+    display: flex;
+}
+
+.profile_photo{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+
+
+/* MAIN - BLOC 1*/
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.bloc1 {
+    background-color: #ffffff;
+    color: #333333;
+    width:fit-content;
+    flex:2;
+    padding: 2em 3em;
+
+}
+
+.bloc1 h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+    padding-bottom: 0.3em;
+}
+
+.profile > p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.training_items, .internship_items, .experience_items {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.institution {
+    font-size: smaller;
+    font-style: italic;
+}
+
+
+.date {
+    color: #17abb3;
+}
+
+
+
+/* MAIN - BLOC 2 */
+
+.bloc2 {
+    background-color: #e3e3e3;
+    color: #333333;
+    width:fit-content;
+    flex: 1;
+    padding: 2em 3em;
+}
+
+.skills_level {
+    color: #17abb3;
+
+}
+
+.bloc2 h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-bottom: 1px solid rgba(51,51, 51,0.1);
+    padding-bottom: 0.3em;
+
+}
+
+.skills_items {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin-left: 0.5em;
+}
+
+.language_items {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5em;
+
+}
+
+.language_name {
+    margin-left: 0.5em;
+    font-weight: 700; 
+}
+
+.bloc2 ul {
+    margin-left: 0.5em;
+    line-height: 1.5em;
+    list-style: none;
+}
+
+.bloc2 ul li::before {
+    content: "■";
+    color: #17abb3;
+    padding-right: 0.5em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #17abb3;
+    color: #ffffff;
+    padding-bottom: 0.5em;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    gap: 0.5em;
+}
+
+.sm_icon {
+   font-size: x-large;
+}
+
+.update {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: italic;
+    font-size: smaller;
+}
