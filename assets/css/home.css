@@ -1,5 +1,7 @@
 /* POLICES D'ECRITURE */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face{
     font-family: "Lato";
     src: url('../fonts/Lato-Bold.ttf') format('true type');
@@ -9,9 +11,6 @@
     src: url('../fonts/Lato-Regular.ttf') format('true type');
     src: url('../fonts/Lato-Regular.woff') format('open type');
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 /* GLOBAL */
 
@@ -70,6 +69,10 @@ h1 {
     font-size: 3.5em;
     padding-bottom: 0.1em;
     font-weight: 500;
+}
+
+address {
+    font-style: normal;
 }
 
 .informations {
@@ -158,9 +161,13 @@ h3 {
     color: #17abb3;
 }
 
-.bloc1 article:hover {
+.bloc1 li {
+    padding: 0.5em 0.5em 0.5em 10px;
+}
+
+.bloc1 li:hover {
     background-color: rgba(51, 51, 51, 0.1);
-    padding: 0.5em;
+    padding-left: 0.5em;
     border-left: thick solid #17abb3;
 }
 
@@ -201,6 +208,7 @@ h3 {
     margin-left: 0.5em;
 }
 
+
 .language_items {
     display: flex;
     justify-content: space-between;
@@ -213,13 +221,19 @@ h3 {
     font-weight: 700; 
 }
 
-.bloc2 ul {
+.hobbies_items, .qualities_items {
     margin-left: 0.5em;
     line-height: 1.5em;
     list-style: none;
 }
 
-.bloc2 ul li::before {
+.qualities_items li::before {
+    content: "■";
+    color: #17abb3;
+    padding-right: 0.5em;
+}
+
+.hobbies_items li::before {
     content: "■";
     color: #17abb3;
     padding-right: 0.5em;
